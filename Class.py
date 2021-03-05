@@ -1,14 +1,14 @@
 class student():
     
     def nama(self):
-        print("Nama :", self.full_name)
+        print("Nama   :", self.full_name)
         
     def get_age (self):
-        print("Usia :", self.age)
+        print("Usia   :", self.age)
     def get_alamat (self):
-        print("Usia :", self.alamat)
+        print("Alamat :", self.alamat)
     def get_status (self):
-        print("Usia :", self.status)
+        print("Status :", self.status)
 budi = student()
 
 budi.full_name = "Budi Permana"
